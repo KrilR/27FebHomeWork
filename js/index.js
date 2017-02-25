@@ -1,14 +1,14 @@
 function getFibonacciCycle(index){
     var number=1;
     var nextNumber=1;
-    var result;
+    var result=1;
     var i = 2;
-    do {
+    while (i < index){
         i++;
         result = number + nextNumber;
         number=nextNumber;
         nextNumber = result;
-    } while (i < index);
+    } 
     alert('Calculated in Cycle : ' + result);
 }
 
