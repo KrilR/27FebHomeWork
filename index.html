@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    <meta charset="UTF-8">
+    <title>Fibonacci</title>
+</head>
+<body>
+    
+    <form id="getFibonachi" method="get"/>
+        <fieldset>
+                <legend><h2>Get Fibonacci number :</h2></legend>
+                <div>
+                    <label>
+                        <input type="text" name="number" required pattern="[0-9]+$"> number </label>
+                </div>
+                <br>
+        <button onclick="getFibonacciCycle(number.value)">Calculate by cycle</button>
+        <button onclick="getFibonacciRecursion(number.value)">Calculate by recursion</button>
+    </fieldset>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

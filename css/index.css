@@ -1,0 +1,11 @@
+form {
+  margin:5vh 35vw;
+  width: 30vw;
+}
+input {
+  min-width: 160px;
+  margin-top: 15px;
+}
+button {
+  min-width: 160px;
+}
